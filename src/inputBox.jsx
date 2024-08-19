@@ -13,6 +13,7 @@ const InputBox = ({
   return (
     <div className='w-full max-w-md p-5 bg-white/40 rounded flex flex-col justify-between sm:flex-row'>
 
+        <h1 className='text-center font-bold text-white bg-gray-700 '>Currency Converter</h1>
 
         <div className='flex flex-col gap-2'>
             <label htmlFor="">{label}</label>
